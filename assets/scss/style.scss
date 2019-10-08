@@ -1,5 +1,5 @@
-@import "../bootstrap/bootstrap.scss";
- 
+@import '../bootstrap/bootstrap.scss';
+@import '../bootstrap/bootstrap-reboot.scss';
 
 $primary:#98b411;
 $secondary: #dddddd;
@@ -41,7 +41,83 @@ header{
     }
   }
 }
+.logo{
+  margin: 10px 0;
+  img{
+    width: 120px;
+  }
+}
 section{
-  padding-top:56px;
+  padding-top:81px;
   z-index: 0;
+}
+
+
+#jumbotron{
+  height: 60vh;
+  overflow: hidden;
+  position: relative;
+      #img_1{
+        position: absolute;
+        top: -200px;
+        animation-name: fade;
+        animation-delay: 8s;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+
+      }
+      #img_2{
+        position: absolute;
+        top:-500px;
+        animation-name: fade;
+        animation-delay: 4s;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+
+      }
+      #img_3{
+        position: absolute;
+        top:-400px;
+        animation-name: fade;
+        animation-delay: 0s;
+        animation-iteration-count: infinite;
+        animation-duration: 8s;
+      }
+}
+
+@keyframes fade{
+  0% {
+    opacity:1;
+  }
+  17% {
+    opacity:1;
+  }
+  25% {
+    opacity:0;
+  }
+  92% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+
+
+#title{
+  height: 60vh;
+  position: relative;
+      #logo{
+        position: absolute;
+      }
+}
+
+#News{
+  height: 40vh;
+  h2{
+    color: #98b411;
+  }
+  p{
+    color: #1A1A1A;
+  }
 }
