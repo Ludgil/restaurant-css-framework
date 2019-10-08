@@ -1,8 +1,56 @@
 @import '../bootstrap/bootstrap.scss';
 @import '../bootstrap/bootstrap-reboot.scss';
 
+$primary:#98b411;
+$secondary: #dddddd;
 
-
+.invert{
+  filter: invert(.8);
+  transition: all .3s;
+  &:hover{
+    filter: invert(1);
+  }
+}
+header{
+  width: 100%;
+  z-index: 99999;
+}
+#burger{
+  
+  li{
+    list-style-type: none;
+    padding:5px 0;
+    a{
+      color:$secondary;
+      text-decoration: none;
+      &:hover{
+        
+        &::before{
+          opacity: 1;
+        }
+      }
+      &::before{
+        content:'';
+        width:10px;
+        height: 10px;
+        background:$primary;
+        display:inline-block;
+        opacity: 0;
+        margin-right:15px;
+      }
+    }
+  }
+}
+.logo{
+  margin: 10px 0;
+  img{
+    width: 120px;
+  }
+}
+section{
+  padding-top:81px;
+  z-index: 0;
+}
 
 
 #jumbotron{
@@ -62,7 +110,6 @@
       #logo{
         position: absolute;
       }
-
 }
 
 #News{
