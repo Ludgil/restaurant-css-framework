@@ -9981,6 +9981,40 @@ template {
   display: none !important;
 }
 
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@-webkit-keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  33% {
+    opacity: 1;
+  }
+  53% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
 #jumbotron {
   height: 60vh;
   overflow: hidden;
@@ -9989,45 +10023,28 @@ template {
 #jumbotron #img_1 {
   position: absolute;
   top: -200px;
+  animation-delay: 0s;
+  animation-duration: 12s;
   animation-name: fade;
-  animation-delay: 8s;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
 }
 #jumbotron #img_2 {
   position: absolute;
   top: -500px;
+  animation-delay: 8s;
+  animation-duration: 12s;
   animation-name: fade;
-  animation-delay: 4s;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
 }
 #jumbotron #img_3 {
   position: absolute;
   top: -400px;
+  animation-delay: 4s;
+  animation-duration: 12s;
   animation-name: fade;
-  animation-delay: 0s;
   animation-iteration-count: infinite;
-  animation-duration: 8s;
 }
 
-@keyframes fade {
-  0% {
-    opacity: 1;
-  }
-  17% {
-    opacity: 1;
-  }
-  25% {
-    opacity: 0;
-  }
-  92% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 #title {
   height: 60vh;
   position: relative;
