@@ -1,9 +1,47 @@
 @import "../bootstrap/bootstrap.scss";
-#jumbotron{
-    height: 500px;
-}
+ 
 
-#title{
-  height: 500px;
+$primary:#98b411;
+$secondary: #dddddd;
+
+.invert{
+  filter: invert(.8);
+  transition: all .3s;
+  &:hover{
+    filter: invert(1);
+  }
 }
-$primary: rgb(255,0,0);
+header{
+  width: 100%;
+  z-index: 99999;
+}
+#burger{
+  
+  li{
+    list-style-type: none;
+    padding:5px 0;
+    a{
+      color:$secondary;
+      text-decoration: none;
+      &:hover{
+        
+        &::before{
+          opacity: 1;
+        }
+      }
+      &::before{
+        content:'';
+        width:10px;
+        height: 10px;
+        background:$primary;
+        display:inline-block;
+        opacity: 0;
+        margin-right:15px;
+      }
+    }
+  }
+}
+section{
+  padding-top:56px;
+  z-index: 0;
+}
