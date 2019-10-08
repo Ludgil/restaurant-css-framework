@@ -1,0 +1,15 @@
+{
+    "liveSassCompile.settings.excludeList": [ 
+    "**/node_modules/**",
+    ".vscode/**",
+    "assets/bootstrap/**",
+    "assets/sass/libs/**"
+],
+"liveSassCompile.settings.formats":[
+    {
+        "format": "compressed",
+        "extensionName": ".css",
+        "savePath": "/assets/css"
+    },
+],
+}
