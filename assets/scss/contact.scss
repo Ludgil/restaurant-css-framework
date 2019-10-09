@@ -1,0 +1,30 @@
+@import "../bootstrap/bootstrap.scss";
+
+#img-contact{
+  padding-top: 81px;
+  background:url('../img/contact-img.jpg');
+  background-position: 20% 40%;
+
+    #contact-title{
+      height: 25vh;
+    }
+}
+#contact-form{
+/*  background-color: #343a40;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+  height: 65vh;
+}
+
+#send-btn{
+  background-color: #98b411;
+}
+
+#form-control-color{
+
+      border-color: #98b411;
+
+      &:focus {
+        border-color: #98b411;  box-shadow: 0 0 0 0.2rem rgba(#98b411, 0.25);
+      }
+}
