@@ -16,7 +16,7 @@ header{
   z-index: 99999;
 }
 #burger{
-  
+
   li{
     list-style-type: none;
     padding:5px 0;
@@ -24,7 +24,7 @@ header{
       color:$secondary;
       text-decoration: none;
       &:hover{
-        
+
         &::before{
           opacity: 1;
         }
@@ -113,7 +113,7 @@ section{
 }
 
 #News{
-  height: 40vh;
+  height: 30vh;
   h2{
     color: #98b411;
   }
