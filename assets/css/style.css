@@ -10031,12 +10031,13 @@ section {
   height: 60vh;
   overflow: hidden;
   position: relative;
+  border-bottom: 3px solid #98b411;
 }
 #jumbotron #img_1 {
   position: absolute;
   top: -200px;
   animation-name: fade;
-  animation-delay: 8s;
+  animation-delay: 0s;
   animation-iteration-count: infinite;
   animation-duration: 8s;
 }
@@ -10044,7 +10045,7 @@ section {
   position: absolute;
   top: -500px;
   animation-name: fade;
-  animation-delay: 4s;
+  animation-delay: 2s;
   animation-iteration-count: infinite;
   animation-duration: 8s;
 }
@@ -10052,7 +10053,7 @@ section {
   position: absolute;
   top: -400px;
   animation-name: fade;
-  animation-delay: 0s;
+  animation-delay: 4s;
   animation-iteration-count: infinite;
   animation-duration: 8s;
 }
@@ -10085,11 +10086,16 @@ section {
 #News {
   height: 30vh;
 }
+#News #news-content {
+  height: 30vh;
+}
 #News h2 {
   color: #98b411;
 }
 #News p {
   color: #1A1A1A;
+  line-height: 1.6em;
+  font-size: 18px;
 }
 
 /*# sourceMappingURL=style.css.map */

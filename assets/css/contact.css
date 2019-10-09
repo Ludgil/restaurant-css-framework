@@ -9663,6 +9663,9 @@ h3 {
 #img-contact #contact-title {
   height: 25vh;
 }
+#img-contact #contact-title h1 {
+  color: #98b411;
+}
 
 #contact-form {
   /*  background-color: #343a40;*/
