@@ -1,8 +1,10 @@
+$theme-colors: (
+  "primary": #98b411,
+);
 @import '../bootstrap/bootstrap.scss';
-@import '../bootstrap/bootstrap-reboot.scss';
-
-$primary:#98b411;
+$primary: #98b411;
 $secondary: #dddddd;
+$marginsec: 81px;
 
 .invert{
   filter: invert(.8);
@@ -51,7 +53,7 @@ body{
   }
 }
 section{
-  padding-top:81px;
+  padding-top:$marginsec;
   z-index: 0;
 }
 

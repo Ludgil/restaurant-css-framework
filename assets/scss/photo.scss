@@ -1,7 +1,13 @@
 
-@import "../bootstrap/bootstrap.scss";
-
 .carousel{
-    height: 500px;
+    height: 50vh;
     overflow: hidden;
+}
+.w-33{
+    width: 33,33%;
+    height: auto;
+}
+
+section{
+    padding-top:131px;
 }
