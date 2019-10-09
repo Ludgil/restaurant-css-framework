@@ -1,8 +1,13 @@
-@import "../bootstrap/bootstrap.scss"; 
 
 
 .nav-item{
     text-align:center;
 }
 
-h2{padding-top:45px;}
+h2{padding-top: 45px;}
+
+#pills-entrees{
+    span{
+        margin-left:20px;
+    }
+}
