@@ -57,7 +57,8 @@ section{
   height: 60vh;
   overflow: hidden;
   position: relative;
-  border-bottom: 3px solid #98b411;
+  border-bottom: 6px solid;
+  border-color: #98b411;
       #img_1{
         position: absolute;
         top: -200px;
