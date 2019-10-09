@@ -1,8 +1,10 @@
+$theme-colors: (
+  "primary": #98b411,
+);
 @import '../bootstrap/bootstrap.scss';
-@import '../bootstrap/bootstrap-reboot.scss';
-
-$primary:#98b411;
+$primary: #98b411;
 $secondary: #dddddd;
+$marginsec: 81px;
 
 .invert{
   filter: invert(.8);
@@ -14,6 +16,9 @@ $secondary: #dddddd;
 header{
   width: 100%;
   z-index: 99999;
+}
+body{
+  background: $secondary;
 }
 #burger{
   
@@ -48,7 +53,7 @@ header{
   }
 }
 section{
-  padding-top:81px;
+  padding-top:$marginsec;
   z-index: 0;
 }
 
