@@ -1,7 +1,11 @@
 $theme-colors: (
   "primary": #98b411,
 );
+$font-family-sans-serif:'Montserrat', serif;
+
 @import '../bootstrap/bootstrap.scss';
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap');
+
 $primary: #98b411;
 $secondary: #dddddd;
 $marginsec: 81px;
@@ -120,7 +124,7 @@ section{
     opacity: 1;
   }
   53% {
-    opacity: 0;
+    opacity: 0; 
   }
   100% {
     opacity: 0;
