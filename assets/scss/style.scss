@@ -62,6 +62,7 @@ section{
   height: 60vh;
   overflow: hidden;
   position: relative;
+
   #img_1{
     position: absolute;
     top: -200px;
@@ -115,8 +116,13 @@ section{
       }
 }
 
+#border-accueil{
+  border-top:5px solid $primary;
+}
+
+
 #News{
-  height: 30vh;
+  height: 35vh;
   h2{
     color: $primary;
   }

@@ -9760,8 +9760,12 @@ section {
   position: absolute;
 }
 
+#border-accueil {
+  border-top: 5px solid #98b411;
+}
+
 #News {
-  height: 30vh;
+  height: 35vh;
 }
 #News h2 {
   color: #98b411;
