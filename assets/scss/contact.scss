@@ -1,4 +1,5 @@
-@import "../bootstrap/bootstrap.scss";
+
+$primary:#98b411;
 
 #img-contact{
   padding-top: 81px;
@@ -10,21 +11,20 @@
     }
 }
 #contact-form{
-/*  background-color: #343a40;*/
   padding-top: 10px;
   padding-bottom: 10px;
   height: 65vh;
 }
 
 #send-btn{
-  background-color: #98b411;
+  background-color: $primary;
 }
 
 #form-control-color{
 
-      border-color: #98b411;
+      border-color: $primary;
 
       &:focus {
-        border-color: #98b411;  box-shadow: 0 0 0 0.2rem rgba(#98b411, 0.25);
+        border-color: $primary;  box-shadow: 0 0 0 0.2rem rgba(#98b411, 0.25);
       }
 }
