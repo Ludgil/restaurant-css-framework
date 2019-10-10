@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"carte.css"}
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,OAAO,AAAA,CACH,UAAU,CAAC,MAAM,CACjB,MAAM,CAAC,IAAI,CAGd,AACD,AAAA,KAAK,AAAA,CACD,KAAK,CAAE,GAAG,CACb,AACD,AAAA,KAAK,AAAA,CACD,YAAY,CAAE,CAAC,CAAA,UAAU,CACzB,aAAa,CAAE,CAAC,CAAA,UAAU,CAC7B",
+    "sources": [
+        "../scss/carte.scss"
+    ],
+    "names": [],
+    "file": "carte.css"
+}
