@@ -1,9 +1,8 @@
 
-
 @media only screen and (max-width: 767px){
     .carousel{
         height: 50vh;
-        overflow: scroll;
+        overflow-y: scroll;
     }
 }
 .w-33{
@@ -12,8 +11,14 @@
 }
 
 section{
-    padding-top:131px;
+    padding-top:81px;
 }
 .padd{
-    padding: 131px 0 0 0;
+    padding: 81px 0 0 0;
+}
+h2{
+    margin: 0;
+}
+#height{
+    height: 300px;
 }
