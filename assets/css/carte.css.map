@@ -1,1 +1,9 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"carte.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/carte.scss"
+    ],
+    "names": [],
+    "file": "carte.css"
+}
