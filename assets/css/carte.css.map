@@ -1,10 +1,6 @@
 {
     "version": 3,
-<<<<<<< HEAD
     "mappings": "AAEA,AAAA,OAAO,AAAA,CACH,UAAU,CAAC,MAAM,CACjB,MAAM,CAAC,IAAI,CAGd,AACD,AAAA,KAAK,AAAA,CACD,KAAK,CAAE,GAAG,CACb,AACD,AAAA,KAAK,AAAA,CACD,YAAY,CAAE,CAAC,CAAA,UAAU,CACzB,aAAa,CAAE,CAAC,CAAA,UAAU,CAC7B",
-=======
-    "mappings": "AAAA,AAAA,OAAO,AAAA,CACH,UAAU,CAAE,MAAM,CAErB",
->>>>>>> origin/photo
     "sources": [
         "../scss/carte.scss"
     ],
