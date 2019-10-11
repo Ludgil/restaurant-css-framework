@@ -1,8 +1,38 @@
 #carouselExampleControls{
-    padding-top: 40px;
-    height: 80vh;
+    padding-top: 7vh;
+    height: 100vh;
 }
-#border-txt{
-    border-right: 2px solid green;
-    border-top: 2px solid green;
+// 40px
+// 10vh
+section{
+border-right: 2px solid rgb(80, 82, 80);
+border-bottom: 2px solid rgb(80, 82, 80);
+box-shadow: 2px 2px 2px 0px rgb(80, 82, 80)
 }
+
+p{
+    background: #98b411;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.carousel-control-prev:hover{
+    background: #99b4116b;
+    transition: 1s;
+    }
+.carousel-control-next:hover{
+    background: #99b4116b;
+    transition: 1s;
+    }
+
+    #border-txt{
+        top: 15vh;
+    }
+
+h5:hover{
+    background: -webkit-linear-gradient(#2b2a2a, #98b411);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    transition: 1s;
+}
+
