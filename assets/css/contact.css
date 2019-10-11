@@ -1,14 +1,12 @@
 #img-contact {
-  padding-top: 81px;
-  background: url("../img/contact-img.jpg");
-  background-position: 20% 40%;
+  background: url("../img/contact_header.jpg");
 }
 #img-contact #contact-title {
-  height: 25vh;
+  height: 15vh;
 }
 
 #contact-form {
-  padding-top: 10px;
+  padding-top: 20px;
   padding-bottom: 10px;
   height: 65vh;
 }
@@ -23,6 +21,11 @@
 #form-control-color:focus {
   border-color: #98b411;
   box-shadow: 0 0 0 0.2rem rgba(152, 180, 17, 0.25);
+}
+
+#footer-position {
+  background: #343a40;
+  margin-top: 81px;
 }
 
 /*# sourceMappingURL=contact.css.map */
